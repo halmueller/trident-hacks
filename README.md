@@ -22,3 +22,12 @@ Set up an account for your self on
 the Google Play store (https://play.google.com/store/account). Then email support@openrov.com and tell them the address you're using for 
 Google Play (it might not be the same address you're using to correspond with OpenROV). Ask for access to the OpenROV beta for your Google 
 Play account.
+
+# Files on the controller
+
+Using Android File Transfer (https://www.android.com/filetransfer/) I was able to see the internal file structure. Within folder /Android/data/com.openrov.cockpit/files/data are a bunch of JPEGs and H264s. There's also userprofile.json, sessions.cblite2, and a few .cblite2 files named with a GUID name scheme. Presumably the .cblite2 files are Couchbase datasets.
+
+userprofile.json appears to have just the Google Play account information used to download the app.
+
+Filenames for the JPEG, H264, and .cblite2 follow the same GUID pattern.
+
