@@ -31,3 +31,4 @@ userprofile.json appears to have just the Google Play account information used t
 
 Filenames for the JPEG, H264, and .cblite2 follow the same GUID pattern.
 
+To do: explore these files with https://github.com/couchbase/couchbase-lite-core/wiki/The-%27cblite%27-Tool.
