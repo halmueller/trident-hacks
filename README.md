@@ -11,7 +11,7 @@ sensors, rotate the vehicle back and forth about each of its three axes.
 
 The JXD S192 Game Pad, which OpenROV sells as the preferred controller, does not have an internal compass.
 This means that the Pilot display of OpenROV Cockpit cannot display heading of the controller.
-To visualize the true direction of the vehicle, you'll need an external compass or some other queue for situational awareness.
+To visualize the true direction of the vehicle, you'll need an external compass or some other cue for situational awareness.
 
 # Controller software
 
