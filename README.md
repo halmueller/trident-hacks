@@ -6,8 +6,8 @@ This repository is for me to collect information I've learned about the Trident 
 
 From https://forum.openrov.com/t/how-to-use-the-trident-display-to-full-advantage/6243/14:
 
-Trident has an internal magnetic compass, and fuses its data with a rate gro. To calibrate this pair of 
-sensors, rotate the vehicle back and forth about each of its three axes.
+Trident has an internal magnetic compass, and fuses its data with a rate gyro. To calibrate this pair of 
+sensors, rotate the vehicle back and forth around each of its three axes.
 
 The JXD S192 Game Pad, which OpenROV sells as the preferred controller, does not have an internal compass.
 This means that the Pilot display of OpenROV Cockpit cannot display heading of the controller.
