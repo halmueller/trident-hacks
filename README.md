@@ -19,7 +19,7 @@ external compass or some other cue for situational awareness.
 To get the OpenROV Cockpit software for Android, you need to be admitted to the private beta program. You should request access as soon as 
 you have a shipping notification for your Trident.
 
-Set up an account for your self on 
+Set up an account for yourself on 
 the Google Play store (https://play.google.com/store/account). Then email support@openrov.com and tell them the address you're using for 
 Google Play (it might not be the same address you're using to correspond with OpenROV). Ask for access to the OpenROV beta for your Google 
 Play account.
