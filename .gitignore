@@ -2,6 +2,12 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+# Mac noise
+.DS_Store
+
+# Emacs backup files
+*~
+
 ## Build generated
 build/
 DerivedData/
