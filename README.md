@@ -29,7 +29,11 @@ Play account.
 Using Android File Transfer (https://www.android.com/filetransfer/) I
 was able to see the internal file structure. Within folder
 /Android/data/com.openrov.cockpit/files/data are a bunch of JPEGs and
-H264s. There's also userprofile.json, sessions.cblite2, and a few
+H264s.
+
+The H264 files were easily converted to MP4 files using HandBrake: https://handbrake.fr.
+
+There's also userprofile.json, sessions.cblite2, and a few
 .cblite2 files named with a GUID name scheme. 
 
 ![file overview](media/dataOverview.png)
