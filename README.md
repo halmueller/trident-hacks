@@ -24,6 +24,9 @@ the Google Play store (https://play.google.com/store/account). Then email suppor
 Google Play (it might not be the same address you're using to correspond with OpenROV). Ask for access to the OpenROV beta for your Google 
 Play account.
 
+Large video files from your dives take a while to process. Wait for the Cockpit's processing to finish before you try to export them. 
+If you can't watch the video from within Cockpit, they're not ready to export yet.
+
 # Files on the controller
 
 Using Android File Transfer (https://www.android.com/filetransfer/) I
