@@ -16,13 +16,9 @@ external compass or some other cue for situational awareness.
 
 # Controller software
 
-To get the OpenROV Cockpit software for Android, you need to be admitted to the private beta program. You should request access as soon as 
-you have a shipping notification for your Trident.
-
 Set up an account for yourself on 
-the Google Play store (https://play.google.com/store/account). Then email support@openrov.com and tell them the address you're using for 
-Google Play (it might not be the same address you're using to correspond with OpenROV). Ask for access to the OpenROV beta for your Google 
-Play account.
+the Google Play store (https://play.google.com/store/account). OpenROV Cockpit is publicly available to all as of June 2018; there's
+no longer a need to apply for the private beta.
 
 Large video files from your dives take a while to process. Wait for the Cockpit's processing to finish before you try to export them. 
 If you can't watch the video from within Cockpit, they're not ready to export yet.
@@ -42,6 +38,8 @@ There's also userprofile.json, sessions.cblite2, and a few
 ![file overview](media/dataOverview.png)
 
 userprofile.json appears to have just the Google Play account information used to download the app.
+
+Because the .cblite2 files use forestdb for storage, we know that CBLite version 1.4 or older was used to create them. CBLite 1.4.0.1 is available at https://github.com/couchbase/couchbase-lite-ios/releases/tag/1.4.0.1.
 
 I used CBLitePro to investigate the .cblite2 files. CBLitePro is
 available on the Mac App Store
