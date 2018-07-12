@@ -2,7 +2,7 @@
 
 This repository is for me to collect information I've learned about the Trident OpenROV that isn't documented anywhere else.
 
-# Compass and Calibration
+## Compass and Calibration
 
 From https://forum.openrov.com/t/how-to-use-the-trident-display-to-full-advantage/6243/14:
 
@@ -14,7 +14,7 @@ This means that the Pilot display of OpenROV Cockpit cannot display heading of t
 To visualize the true direction of the vehicle, you'll need an
 external compass or some other cue for situational awareness. 
 
-# Controller software
+## Controller software
 
 Set up an account for yourself on 
 the Google Play store (https://play.google.com/store/account). OpenROV Cockpit is publicly available to all as of June 2018; there's
@@ -23,10 +23,10 @@ no longer a need to apply for the private beta.
 Large video files from your dives take a while to process. Wait for the Cockpit's processing to finish before you try to export them. 
 If you can't watch the video from within Cockpit, they're not ready to export yet.
 
-# Files on the controller
+## Files on the controller
 
-Using Android File Transfer (https://www.android.com/filetransfer/) I
-was able to see the internal file structure. Within folder
+Using Android File Transfer (https://www.android.com/filetransfer/) for macOS I
+was able to see the internal file structure and retrieve files. Within folder
 /Android/data/com.openrov.cockpit/files/data are a bunch of JPEGs and
 H264s.
 
@@ -60,6 +60,4 @@ temperature, battery status, camera reports, and more.
 
 ![one dive](media/oneSession.png)
 
-To do: explore these files with
-https://github.com/couchbase/couchbase-lite-core/wiki/The-%27cblite%27-Tool
-and try to export the data.
+See repository https://github.com/kefir-/openrov-utils for some Python scripts that export the data to something useful.
