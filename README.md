@@ -70,3 +70,26 @@ temperature, battery status, camera reports, and more.
 ![one dive](media/oneSession.png)
 
 See repository https://github.com/kefir-/openrov-utils for some Python scripts that export the data to something useful.
+
+## Files on the ROV itself
+
+(courtesy of Jeremy MacDonald in https://forum.openrov.com/t/ftp-access-to-media-files/6191)
+
+1. Connect drone to tether and topside unit and power up.
+1. On my Android phone, connected in the app to the trident, and set the drone to connect to my home wifi router.
+1. I disconnected the topside router (on the router side) to save power. There is a magnet in the tether that leaves the unit powered up, and connected to the home router.
+1. On my laptop, browse to my home router (in my case 192.168.0.1) and search the connected devices for the trident. In my network the trident shows up in 2,4ghz and is named “1b0af0a”. The router gave me the IP address 192.168.1.191 - this could be different on your own router depending in the dynamic settings.
+1. Install filezilla.
+1. Connect to sftp://192.168.1.191, using:
+    * port 22
+    * username: rov
+    * Password: OpenROV
+1. on the drone, movies are located in the folder: /data/openrov/video/sessions/
+1. Select the desired videos and download.
+
+And voila, a quicker method to download direct to laptop!!!
+
+Note that the metadata files in each folder (metadata.json) contains the dates the video was created. By default everything seems to be named “0.mp4”
+
+Now to try to figure out how to connect the laptop to the topside unit direct
+
